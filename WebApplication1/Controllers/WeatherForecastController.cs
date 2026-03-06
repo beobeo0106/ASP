@@ -24,6 +24,8 @@ public class WeatherForecastController : ControllerBase
         //lê như thảo
         //phu thái
         //võ ngọc bảo
+        //phu thái
+
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
         {
             Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
