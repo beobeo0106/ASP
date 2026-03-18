@@ -1,1 +1,7 @@
+thêm sản phẩm vào giỏ hàng
+http://localhost:8900/api/shop/cart?productId=1&quantity=2
+Header: Cart-Id = 12345
 
+đặt hàng
+http://localhost:8900/api/shop/order/1
+Header: Cart-Id = 12345
